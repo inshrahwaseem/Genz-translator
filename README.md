@@ -7,8 +7,11 @@
 
 ## 📸 Application Preview
 
-![Gen-Z Translator Interface](./assets/screenshot.png)
-*A sleek dark-mode dashboard providing a seamless, real-time translation experience.*
+![English to Gen-Z Translation](./assets/screenshot-1.png)
+*Translating Standard English to Gen-Z Slang in real-time.*
+
+![Gen-Z to English Translation](./assets/screenshot-2.png)
+*Translating Gen-Z Slang back into clear Standard English.*
 
 ---
 
@@ -50,14 +53,6 @@ Navigate to the `backend` directory:
 ```bash
 cd backend
 npm install
-```
-Create a `.env` file in the `backend` directory and add your API key:
-```env
-GEMINI_API_KEY=your_gemini_api_key_here
-PORT=5000
-```
-Start the backend server:
-```bash
 npm run dev
 ```
 
@@ -66,25 +61,18 @@ Open a new terminal and navigate to the `frontend` directory:
 ```bash
 cd frontend
 npm install
-```
-Create a `.env` file in the `frontend` directory to link the backend:
-```env
-VITE_API_URL=http://localhost:5000
-```
-Start the Vite development server:
-```bash
 npm run dev
 ```
 
 ### 3. Usage
-Open your browser to `http://localhost:5173`. Select your translation direction, type your text, and hit **Translate Now**!
+Open your browser to the local server or the live app at `https://genz-translator-phi.vercel.app`. Select your translation direction, type your text, and hit **Translate Now**!
 
 ---
 
 ## 👤 About the Author
 
 **Inshrah Waseem**
-- **Live Demo**: [View Live Project](#) *(Link will be updated upon deployment)*
+- **Live Demo**: [https://genz-translator-phi.vercel.app](https://genz-translator-phi.vercel.app)
 - Built as a demonstration of modern full-stack development and AI API integration.
 
 ---
